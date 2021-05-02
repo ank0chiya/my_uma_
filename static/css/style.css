@@ -1,0 +1,20 @@
+
+.sinbori {
+    display: none;
+}
+.table table-bordered th{
+    border: 1px solid #CCCCCC;
+    padding: 5px 10px;
+    text-align: left;
+}
+h5 {
+    background-image: url(../static/images/sinbori.PNG);
+    padding: 5px 0 5px 30px;
+    background-size: 25px 25px;
+    color: inherit;
+}
+
+.table table-bordered {
+    table-layout: fixed;
+}
+

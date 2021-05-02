@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="../static/css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <title>{{ title }}</title>
+    </head>
+
+    <body>
+
+        <img src="../static/images/sinbori.PNG" class="img-fluid" alt="Responsive image">
+        <img src="https://img.gamewith.jp/article_tools/uma-musume/gacha/i_8.png" class="img-fluid" alt="Responsive image"  width="80" height="80">
+        
+        <p>
+            ここから下に選択肢を表示
+        </p>
+        <p>
+            <input id="sinbori" type="image" src="../static/images/sinbori.PNG" class="img-fluid" alt="">
+        </p>
+        <h1>TABLE</h1>
+        <div class='sinbori' style="display: none;">
+            <h5>皇帝の余暇</h5>
+                <div class="uma_choice_table">
+                    <table class="table table-bordered">
+                        <tr><th>ジョークの特訓</th><td>賢さ+10<br>スキルPt+15</td></tr>
+                        <tr><th>雨天のレース研究</th><td>『雨の日◯』のヒントLv+1</td>
+                        </tr>
+                    </table>
+                </div>
+            <h5>笑う会長は服着たがる</h5>
+                <div class="uma_choice_table">
+                    <table class="table table-bordered">
+                        <tr><th>ギャグが高度すぎるかも</th><td>賢さ+20</td></tr>
+                        <tr><th>皆が驚きそう……</th><td>根性+20</td></tr>
+                    </table>
+                </div>
+            <h5>皇帝の日課</h5>
+                <div class="uma_choice_table">
+                    <table  class="table table-bordered">
+                        <tr><th>お弁当を見てみたい！</th><td>パワー+10</td></tr>
+                        <tr><th>毎日作るのは大変そう</th><td>根性+10</td></tr>
+                    </table>
+                </div>
+            <h5>前を往く者</h5>
+                <div class="uma_choice_table">
+                    <table class="table table-bordered">
+                        <tr><th>走ろう</th><td>スピード+5<br>パワー+5</td></tr>
+                        <tr><th>語ろう</th><td>スタミナ+5<br>根性+5</td></tr>
+                    </table>
+                </div>
+            <h5>道の果て、遠く望む</h5>
+                <div class="uma_choice_table">
+                    <table class="table table-bordered">
+                        <tr><th>君の(貴方の)夢を信じている</th><td>スタミナ+20<br>ランダムで『注目株』になる</td></tr>
+                        <tr><th>今更そんなことを悩むのか</th><td>根性+20<br>ランダムで『注目株』になる</td></tr>
+                    </table>
+                </div>
+            <h5>皇帝の道</h5>
+                <div class="uma_choice_table">
+                    <table class="table table-bordered">
+                        <tr><th>なんとか誤魔化そう！</th><td>賢さ+10</td></tr>
+                        <tr><th>正直に打ち明けよう</th><td>パワー+10</td></tr>
+                    </table>
+                </div>
+            <h5>皇帝の社会勉強</h5>
+                <div class="uma_choice_table">
+                    <table class="table table-bordered">
+                        <tr><th>清掃ボランティア</th><td>体力-10<br>スタミナ+10<br>パワー+10</td>
+                        </tr><tr><th>世界名ウマ娘特別展</th><td>賢さ+5<br>スキルPt+15</td></tr>
+                    </table>
+                </div>
+            <h5>竜吟虎嘯</h5>
+                <div class="uma_choice_table">
+                    <table class="table table-bordered">
+                        <tr><th>ルドルフが楽しそうでなにより</th><td>スピード+10</td></tr>
+                        <tr><th>最高の1日だった！</th><td>スタミナ+10</td></tr>
+                    </table>
+                </div>
+            <h5>徳高望重</h5>
+                <div class="uma_choice_table">
+                    <table class="table table-bordered">
+                        <tr><th>お茶はまた今度だな</th><td>賢さ+10</td></tr>
+                        <tr><th>何か手伝えるか？</th><td>パワー+10</td></tr>
+                    </table>
+                </div>
+            <h5>有言実行</h5>
+                <div class="uma_choice_table">
+                    <table class="table table-bordered">
+                        <tr><th>丸1日集中した方がいい</th><td>体力-10<br>パワー+20<br>秋川理事長の絆ゲージ+10</td></tr>
+                        <tr><th>効率的にいこう</th><td>体力+10</td></tr>
+                    </table>
+                </div>
+            <h5>清風明月</h5>
+                <div class="uma_choice_table"><table class="table table-bordered"><tr><th>教えてもらえて嬉しい</th><td>スピード+10</td></tr><tr><th>可愛い名前だ</th><td>賢さ+10</td></tr><tr><th>これから先も、ずっと覚えておく</th><td>スタミナ+10</td></tr></table></div><h5>道半ば、顧みて</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>『経過報告』にすればいい</th><td>スピード+20</td></tr><tr><th>たまには叱られたところを見てみたいな～</th><td>パワー+20</td></tr></table></div><h5>いついかなる時も</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>今日中に対応してあげよう</th><td>体力-10<br>根性+20<br>秋川理事長の絆ゲージ+10</td></tr><tr><th>何か手伝えるかな</th><td>体力+10</td></tr></table></div><h5>突然の厚意</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>ルドルフに任せよう</th><td>体力-10<br>スタミナ+20<br>秋川理事長の絆ゲージ+10</td></tr><tr><th>手伝ってもらった方が早いかもよ</th><td>体力+10</td></tr></table></div><h5>皇帝の飽食</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>ちょっと量が多くないか？</th><td>体力+10<br>スキルPt+5</td></tr><tr><th>よし、バッチリ味見しよう</th><td>体力+30<br>スキルPt+10<br>ランダムで『太り気味』になる</td></tr></table></div><h5>追加の自主トレ</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>それなら付き合うよ</th><td>体力-5<br>直前のトレーニングに応じたステータス+5<br>秋川理事長の絆ゲージ+5</td></tr><tr><th>小敵と見て侮るなかれ</th><td>体力+5</td></tr></table></div><h5>ダンスレッスン</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>可愛い振り付け</th><td>賢さ+10</td></tr><tr><th>ブレイクダンス</th><td>パワー＋10</td></tr></table></div><h5>新年の抱負</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>『賢良方正』常に最善の選択を</th><td>賢さ+10</td></tr><tr><th>『十全健康』心も体も大切に</th><td>体力+20</td></tr><tr><th>『武芸百般』多用な技を用いる</th><td>スキルPt+20</td></tr></table></div><h5>夏合宿（2年目）にて</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>いっぱい食べてパワーをつけよう</th><td>パワー+10</td></tr><tr><th>たまにはトレーニングを我慢してみる</th><td>根性+10</td></tr></table></div><h5>初詣</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>『医食同源』食事で健康に気を配る</th><td>体力+30</td></tr><tr><th>『全知全能』最強の”皇帝”になる</th><td>5種ステータスを+5</td></tr><tr><th>『風流韻事』洒落の技術を磨く</th><td>スキルPt+35</td></tr></table></div><h5>お大事に！</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>しっかり休んでほしい(夏合宿中：きっちり休ませる)</th><td>やる気ダウン<br>直前のトレーニングに応じたステータス-5<br>ランダムで『練習下手』になる</td></tr><tr><th>それなら……！(夏合宿中：頑張らせる)</th><td>やる気ダウン<br>直前のトレーニングに応じたステータス-10<br>ランダムで『練習下手』になる<hr>『練習上手◯』になる</td></tr></table></div><h5>無茶は厳禁！</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>無理せずゆっくりいこう(夏合宿中：とにかく労わる)</th><td>体力+10<br>やる気ダウン<br>直前のトレーニングに応じたステータス-10<br>5種ステータスからランダムに2種を-10<br>ランダムで『練習ベタ』になる</td></tr><tr><th>必ず限界は超えられる！(夏合宿中：厳しくいく！)</th><td>やる気4段階ダウン<br>直前のトレーニングに応じたステータス-10<br>5種ステータスからランダムに2種を-10<br>『練習ベタ』になる<hr>体力+10<br>『練習上手◯』になる</td></tr></table></div><h5>レース勝利！(1着)</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>ご褒美をあげよう</th><td>G1：<br>5種ステータスからランダムに1種を+10<br>スキルPt+45<hr>G2~G3：<br>5種ステータスからランダムに1種を+8<br>スキルPt+35<hr>op：<br>5種ステータスからランダムに1種を+5<br>スキルPt+35<hr>共通：<br>体力-15<br>ランダムで『バ場状況や出場したレース場に関係するスキルのヒント』取得</td></tr><tr><th>次も勝とうな！</th><td>G1：<br>5種ステータスからランダムに1種を+10<br>スキルPt+45<hr>G2~G3：<br>5種ステータスからランダムに1種を+8<br>スキルPt+35<hr>op：<br>5種ステータスからランダムに1種を+5<br>スキルPt+35<hr>共通：<br>体力-5or-20or-30<br>ランダムで『バ場状況や出場したレース場に関係するスキルのヒント』取得</td></tr></table></div><h5>レース入着(2~5着)</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>でも、まずはお疲れ様</th><td>G1：<br>5種ステータスからランダムに1種を+5~8<br>スキルPt+40~45<hr>G2~G3：<br>5種ステータスからランダムに1種を+4~6<br>スキルPt+30~45<hr>op：<br>5種ステータスからランダムに1種を+2~4<br>スキルPt+20~45<hr>共通：<br>体力-20<br>ランダムで『バ場状況や出場したレース場に関係するスキルのヒント』取得</td></tr><tr><th>次こそ”皇帝”の走りを見せよう！</th><td>G1：<br>5種ステータスからランダムに1種を+5~8<br>スキルPt+40~45<hr>G2~G3：<br>5種ステータスからランダムに1種を+4~6<br>スキルPt+30~45<hr>op：<br>5種ステータスからランダムに1種を+2~4<br>スキルPt+20~45<hr>共通：<br>体力-10or-30<br>ランダムで『バ場状況や出場したレース場に関係するスキルのヒント』取得</td></tr></table></div><h5>レース敗北(6着以下)</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>少し落ち着こう</th><td>G1：<br>5種ステータスからランダムに1種を+4<br>スキルPt+25<hr>G2~G3：<br>5種ステータスからランダムに1種を+3<br>スキルPt+20<hr>op：<br>スキルPt+10<hr>共通：<br>体力-25<br>ランダムで『バ場状況や出場したレース場に関係するスキルのヒント』取得</td></tr><tr><th>次こそ皇帝の走りを</th><td>G1：<br>5種ステータスからランダムに1種を+4<br>スキルPt+25<hr>G2~G3：<br>5種ステータスからランダムに1種を+3<br>スキルPt+20<hr>op：<br>スキルPt+10<hr>共通：<br>体力-15or-25or-35<br>ランダムで『バ場状況や出場したレース場に関係するスキルのヒント』取得</td></tr></table></div><h3 id="sennasi">選択肢のないイベント</h3><h5>莫逆之友</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>選択肢なし</th><td>賢さ+5</td></tr></table></div><h5>熟思黙想</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>選択肢なし</th><td>スピード+5</td></tr></table></div><h5>不協和音</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>選択肢なし</th><td>スピード+5</td></tr></table></div><h5>暗雲低迷</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>選択肢なし</th><td>根性+5</td></tr></table></div><h5>嘔心瀝血</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>選択肢なし</th><td>賢さ+5</td></tr></table></div><h5>凍解氷釈</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>選択肢なし</th><td>賢さ+5</td></tr></table></div><h5>皇帝の苦戦</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>選択肢なし</th><td>体力-10<br>やる気ダウン</td></tr></table></div><h5>皇帝の憂鬱</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>選択肢なし</th><td>やる気ダウン<br>根性-5</td></tr></table></div><h5>皇帝の礎</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>選択肢なし</th><td>やる気アップ<br>5種ステータス+5<br>スキルPt+30<br>ランダムで『切れ者』になる</td></tr></table></div><h5>挑戦成功</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>選択肢なし</th><td>パワー+10</td></tr></table></div><h5>シンボリルドルフ登場！</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>選択肢なし</th><td>スキルPt+120</td></tr></table></div><h5>名指導</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>選択肢なし</th><td>賢さ+10<br>ランダムで『練習上手◯』になる</td></tr></table></div><h5>保健室にて</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>選択肢なし</th><td>体力+20<br>『夜ふかし気味』が治る</td></tr></table></div><h5>頭痛で憂鬱</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>選択肢なし</th><td>やる気ダウン<br>賢さ-5<br>『片頭痛』になる</td></tr></table></div><h5>飛竜乗雲</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>選択肢なし</th><td>体力+30<br>やる気アップ<br>5種ステータスから1種を+15</td></tr></table></div><h5>皇帝の不覚</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>選択肢なし</th><td>体力-15<br>やる気ダウン<br>根性-5<br>『なまけ癖』になる</td></tr></table></div><h3 id="race">レース後のイベント</h3><h5>デビュー戦の後に</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>1位(進攻開始)</th><td>5種ステータスからランダムに3種を+3<br>スキルPt+30<br>秋川理事長の絆ゲージ+4</td></tr><tr><th>2位</th><td>5種ステータスからランダムに3種を+2<br>スキルPt+30<br>秋川理事長の絆ゲージ+4</td></tr><tr><th>3位以下(進攻開始)</th><td>5種ステータスからランダムに3種を+1<br>スキルPt+30<br>秋川理事長の絆ゲージ+4</td></tr></table></div><h5>サウジアラビアRCの後に</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>1位</th><td>5種ステータスからランダムに4種を+3<br>スキルPt+30<br>秋川理事長の絆ゲージ+4</td></tr><tr><th>2位(鴻鵠之志)</th><td>5種ステータスからランダムに4種を+2<br>スキルPt+30<br>秋川理事長の絆ゲージ+4</td></tr><tr><th>3位以下(鴻鵠之志)</th><td>5種ステータスからランダムに4種を+1<br>スキルPt+30<br>秋川理事長の絆ゲージ+4</td></tr></table></div><h5>皐月賞の後に</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>1位(一冠達成)</th><td>5種ステータスを+3<br>スキルPt+45<br>秋川理事長の絆ゲージ+4</td></tr><tr><th>2位(臥薪嘗胆)</th><td>5種ステータスを+2<br>スキルPt+45<br>秋川理事長の絆ゲージ+4</td></tr><tr><th>3位以下(臥薪嘗胆)</th><td>5種ステータスを+1<br>スキルPt+45<br>秋川理事長の絆ゲージ+4</td></tr></table></div><h5>日本ダービーの後に</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>1位(抜山蓋世)</th><td>5種ステータスを+3<br>スキルPt+45<br>秋川理事長の絆ゲージ+4</td></tr><tr><th>2位</th><td>5種ステータスを+2<br>スキルPt+45<br>秋川理事長の絆ゲージ+4</td></tr><tr><th>3位以下(磨穿鉄硯)</th><td>5種ステータスを+1<br>スキルPt+45<br>秋川理事長の絆ゲージ+4</td></tr></table></div><h5>菊花賞の後に</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>1位</th><td>5種ステータスを+3<br>スキルPt+45<br>秋川理事長の絆ゲージ+4</td></tr><tr><th>2位(聡明剛毅)</th><td>5種ステータスを+2<br>スキルPt+45<br>秋川理事長の絆ゲージ+4</td></tr><tr><th>3位以下(聡明剛毅)</th><td>5種ステータスを+1<br>スキルPt+45<br>秋川理事長の絆ゲージ+4</td></tr></table></div><h5>有馬記念の後に</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>1位(皇帝君臨)</th><td>5種ステータスを+3<br>スキルPt+45<br>秋川理事長の絆ゲージ+4</td></tr><tr><th>2位</th><td>5種ステータスを+2<br>スキルPt+45<br>秋川理事長の絆ゲージ+4</td></tr><tr><th>3位以下(冥冥之志)</th><td>5種ステータスを+1<br>スキルPt+45<br>秋川理事長の絆ゲージ+4</td></tr></table></div><h5>ジャパンCの後に</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>1位</th><td>5種ステータスを+3<br>スキルPt+45<br>秋川理事長の絆ゲージ+4</td></tr><tr><th>2位(外柔内剛)</th><td>5種ステータスを+2<br>スキルPt+45<br>秋川理事長の絆ゲージ+4</td></tr><tr><th>3位以下</th><td>5種ステータスを+1<br>スキルPt+45<br>秋川理事長の絆ゲージ+4</td></tr></table></div><h5>天皇賞（春）の後に</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>1位</th><td>『根幹距離〇』のヒントLv+1<br>『臨機応変』のヒントLv+1</td></tr></table></div><h3 id=common>共通イベント</h3><h5>あんし〜ん笹針師、参☆上</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>強いウマ娘になれる秘孔を狙う</th><td>成功時:5種ステータス+20<hr>失敗時:やる気ダウン<br>全ステータス-15<br>『夜ふかし気味』になる</td></tr><tr><th>レースで勝てる秘孔を狙う</th><td>成功時:『コーナー回復◯』取得<br>『直線回復』取得<hr>失敗時:体力-20<br>やる気ダウン</td></tr><tr><th>元気で健康になれる秘孔を狙う</th><td>成功時:体力の最大値+12<br>体力+40<hr>失敗時:体力-20<br>やる気ダウン<br>『練習ベタ』になる</td></tr><tr><th>魅力アップの秘孔を狙う</th><td>成功時:体力+20<br>やる気アップ<br>『愛嬌◯』になる<hr>失敗時:体力-20<br>やる気ダウン<br>『練習ベタ』になる</td></tr><tr><th>不安なのでやめておく</th><td>体力+10</td></tr></table></div><h5>福引チャンス！</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>特賞(温泉旅行券)</th><td>体力+30<br>やる気アップ<br>5種ステータス+10</td></tr><tr><th>1等(特上にんじんハンバーグ)</th><td>体力+30<br>やる気アップ<br>5種ステータスを+10</td></tr><tr><th>2等(にんじん山盛り)</th><td>体力+20<br>やる気アップ<br>5種ステータスを+5</td></tr><tr><th>3等(にんじん1本)</th><td>体力+20</td></tr><tr><th>はずれ</th><td>やる気ダウン</td></tr></table></div><h5>バレンタイン</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>選択肢なし</th><td>スキルPt+20</td></tr><tr><th>選択肢なし</th><td>ランダムでウマ娘固有スキルLv+1</td></tr></table></div><h5>ファンレター</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>選択肢なし</th><td>やる気アップ<br>スキルPt+30</td></tr></table></div><h5>クリスマス</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>選択肢なし</th><td>スキルPt+20</td></tr><tr><th>選択肢なし</th><td>ランダムでウマ娘固有スキルLv+1</td></tr></table></div><h5>ファン感謝祭</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>選択肢なし</th><td>体力-5<br>スキルPt+25</td></tr><tr><th>選択肢なし</th><td>やる気アップ<br>ランダムでウマ娘固有スキルLv+1</td></tr></table></div><h5>夏合宿（2年目）終了</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>選択肢なし</th><td>5種ステータスからランダムに3種を+5</td></tr></table></div><h5>夏合宿（3年目）終了</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>選択肢なし</th><td>5種ステータスからランダムに3種を+5</td></tr></table></div><h5>『月刊トゥインクル増刊号』</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>選択肢なし</th><td>スキルPt+5</td></tr><tr><th>選択肢なし</th><td>5種ステータス+3<br>スキルPt+10</td></tr><tr><th>選択肢なし</th><td>5種ステータス+5<br>スキルPt+20</td></tr></table></div><h5>上々の面構えッ！</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>では、新しい練習用具をいただけますか？</th><td>体力-10<br>パワー+20<br>根性+20<br>『ハヤテ一文字』のヒントLv+1</td></tr><tr><th>では、にんじんを分けていただけますか？</th><td>体力+30<br>スタミナ+20<br>『好転一息』のヒントLv+1</td></tr><tr><th>選択肢なし<br>(条件調査中)</th><td>やる気ダウン</td></tr></table></div><h5>トレーナー並の知識</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>力強さが課題なんですが……</th><td>パワー+10<br>乙名史記者の絆ゲージ+5</td></tr><tr><th>スピードが課題なんですが……</th><td>スピード+10<br>乙名史記者の絆ゲージ+5</td></tr></table></div><h5>乙名史記者の徹底取材</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>現状を真摯に受け止めます</th><td>成功：<br>体力-15<br>やる気アップ<br>5種ステータスからランダムに1種を+0~4<br>スキルPt+10~25<br>乙名史記者の絆ゲージ+15<br>※上昇値は出走レースで変動<br><hr>失敗：<br>体力-25<br>やる気ダウン<br>スキルPt+10<br>乙名史記者の絆ゲージ+15<br>※上昇値は出走レースで変動</td></tr><tr><th>このまま突き進みます！！</th><td>体力-15or25or30<br>5種ステータスからランダムに1種を+0~4<br>スキルPt+10~25<br>乙名史記者の絆ゲージ+10<br>※上昇値は出走レースで変動</td></tr></table></div><h5>乙名史記者の悦楽取材</h5><div class="uma_choice_table"><table class="table table-bordered"><tr><th>選択肢なし</th><td>体力-15<br>ランダム能力+5<br>スキルPt+35<br>やる気アップ<br>ファン+500<br>乙名史記者の絆ゲージ+15<br>『晴れの日◯』のヒントLv+1(ランダム)</td></tr></table></div>
+        </div>
+        
+    </body>
+
+    <script>
+        $("#sinbori").on("click", function() {
+            var stats = $(".sinbori").css("display");
+            console.log(stats);
+            if (stats === "none"){
+                $(".sinbori").css("display", "inline");
+            } else {
+                $(".sinbori").css("display", "none");
+            }
+        });
+    </script>
+
+
+</html>
